@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tejas Chauhan | Portfolio</title>
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <header class="fade-in">
+    <nav>
+      <h1>Tejas Chauhan</h1>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+
+  <section class="hero fade-in">
+    <div class="firstsection">
+      <div class="leftsection">
+        <h2>Hello, I'm <span class="highlight">Tejas Chauhan</span></h2>
+        <h3><span id="element"></span></h3>
+        <p>A Computer Science student passionate about web development, AI, and coding smart solutions.</p>
+        <a class="btn" href="assets/Tejas_Chauhan_cv.pdf" target="_blank">Download Resume</a>
+      </div>
+      <div class="rightsection">
+        <img src="assets/images/programmer-source-code-clip-art-computer-removebg-preview.png"
+          alt="Full Stack Animation" />
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['devloper', 'web devloper', 'full-stack devloper', 'java devlpoer'],
+      typeSpeed: 50,
+
+      backSpeed: 25,
+      loop: true
+    });
+  </script>
+  <section class="tech-stack fade-in">
+    <h2>Tech Stack</h2>
+    <div class="tech-icons">
+      <div class="tech-icon">
+        <img src="assets/images/java.png" alt="Java" title="Java">
+        <p>Java</p>
+      </div>
+      <div class="tech-icon">
+       <img src="assets/images/python.png" alt="Python" title="Python">
+        <p>Pyhton</p>
+      </div>
+      <div class="tech-icon">
+        <img src="assets/images/c.png" alt="c" title="c">
+        <p>C</p>
+      </div>
+      <div class="tech-icon">
+        <img src="assets/images/html.png" alt="html">
+        <p>Html</p>
+      </div>
+      <div class="tech-icon">
+        <img src="assets/images/css.png" alt="css">
+        <p>Css</p>
+      </div>
+      
+      <div class="tech-icon">
+        <img src="assets/images/javascript.png" alt="javascript">
+        <p>Javascript</p>
+      </div>
+
+      <div class="tech-icon">
+        <img src="assets/images/sql.png" alt="sql">
+        <p>Mysql</p>
+      </div>
+      <div class="tech-icon">
+        <img src="assets/images/boosttrap.png" alt="bosttrap">
+        <p>Boosttrap</p>
+      </div>
+      <div class="tech-icon">
+        <img src="assets/images/php.png" alt="php">
+        <p>php</p>
+      </div><div class="tech-icon">
+        <img src="assets/images/wordpress.png" alt="wordpress">
+        <p>wordpress</p>
+      </div><div class="tech-icon">
+        <img src="assets/images/jquery.png" alt="jquery">
+        <p>jquery</p>
+      </div><div class="tech-icon">
+        <img src="assets/images/flutter.png" alt="flutter">
+        <p>Flutter</p>
+      </div></div>
+  </section>
+  <section class="experience-section fade-in">
+    <h2>Experience</h2>
+
+    <div class="experience-card">
+      <h3>Data Science & ML Intern</h3>
+      <p class="exp-company">UniConverge Technologies Pvt Ltd | mar 2024 – April 2024</p>
+      <ul>
+        <li>Worked on predicting agriculture crop production using machine learning models.</li>
+        <li>Collaborated with team on model training and evaluation.</li>
+        <li>Presented findings to mentors and improved accuracy using regression techniques.</li>
+      </ul>
+    </div>
+
+   
+  </section>
+
+
+  <footer class="fade-in">
+    <p>&copy; 2025 Tejas Chauhan</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/tejas-chauhan-472b22267" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/tejaschauhan2003" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:tejasch006@gmail.com" target="_blank" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </footer>
+
+  <button id="back-to-top" title="Go to top">⬆️</button>
+
+</body>
+
+</html>
