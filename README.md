@@ -3,6 +3,9 @@ Personal Portfolio Website – Tejas Chauhan
 Welcome to my personal portfolio website!  
 This project is built to showcase my skills, projects,resume, and experience in a clean and responsive design.
 
+Live Preview
+https://tejas193.github.io/portfolio/
+
 ---
 
 Project Overview
@@ -15,8 +18,6 @@ Technologies Used:
 
 ---
 
- Live Preview
-https://tejas193.github.io/portfolio/
 
 Website Structure
 
