@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     messageBox.style.color = "green";
-    messageBox.textContent = "Message sent successfully (simulation).";
+    messageBox.textContent = "Message sent successfully";
 
     form.reset();
   });
