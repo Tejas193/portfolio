@@ -69,4 +69,3 @@ cd portfolio
 start index.html
 
 ---
-  make this that not look like madde by ai
