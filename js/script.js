@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function validateEmail(email) {
-    // Simple email format check
     return /\S+@\S+\.\S+/.test(email);
   }
 });
@@ -53,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!isDeleting && charIndex === currentPhrase.length) {
       isDeleting = true;
-      setTimeout(type, 10000); // pause before deleting
+      setTimeout(type, 10000); 
     } else if (isDeleting && charIndex === 0) {
       isDeleting = false;
       index = (index + 1) % phrases.length;
@@ -62,13 +61,12 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(type, isDeleting ? 50 : 100);
   }
 
-  type(); // start typing effect
+  type(); 
 });
 document.addEventListener("DOMContentLoaded", () => {
   const themeToggle = document.getElementById("theme-toggle");
   const body = document.body;
 
-  // Load saved theme
   if (localStorage.getItem("theme") === "dark") {
     body.classList.add("dark-mode");
   }
@@ -80,7 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Back to Top Button
 const backToTopButton = document.getElementById("back-to-top");
 
 window.addEventListener("scroll", () => {
